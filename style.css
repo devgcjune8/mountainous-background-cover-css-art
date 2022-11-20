@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+.canvas {
+    width: 1640px;
+    height: 624px;
+    background-color: rgb(146, 230, 255);
+    position: relative;
+}
+
+.mountain {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.m1 {
+    border-left: 301px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 300px solid rgb(0, 45, 112);
+    top: 250px;
+    left: 10px;
+    z-index: 0;
+}
+
+.m2 {
+    border-left: 350px solid transparent;
+    border-right: 350px solid transparent;
+    border-bottom: 500px solid rgb(1, 36, 90);
+    top: 50px;
+    left: 400px;
+    z-index: 3;
+}
+
+.m3 {
+    border-left: 350px solid transparent;
+    border-right: 350px solid transparent;
+    border-bottom: 400px solid rgb(3, 71, 173);
+    top: 150px;
+    left: 930px;
+    z-index: 2;
+}
+
+.mountain-shadow {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.m1-shadow {
+    top: 256px;
+    left: 10px;
+    z-index: 0;  
+    border-color: transparent transparent rgba(72,171,224,1);
+border-width: 0px 287px 290px 1092px;
+transform: scale(0.301) translate(1176px, 204px) rotate(2.3511rad);
+transform-origin: 0 0;
+border-style: solid;
+}
+
+.m2-shadow {
+    top: 47px;
+    left: 390px;
+    z-index: 4;  
+    border-color: transparent transparent rgb(123, 187, 221);
+    border-width: 0px 319px 446px 1968px;
+    transform: scale(0.27) translate(1693px, 259px) rotate(2.1916rad);
+    transform-origin: 0 0;
+    border-style: solid;
+}
+
+.m3-shadow {
+    top: 160px;
+    left: 932px;
+    z-index: 2; 
+    border-color: transparent transparent rgb(53, 182, 252);
+border-width: 0px 359px 415px 2087px;
+transform: scale(0.2101) translate(1914px, 281px) rotate(2.2852rad);
+transform-origin: 0 0;
+border-style: solid;
+}
